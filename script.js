@@ -10,8 +10,8 @@ if(heroAsrc === "media/rogue-removebg-preview (2).png"){
         classehero.textContent = 'MAGO'
 
     }else if(heroAsrc === 'media/mago-removebg-preview.png'){
-        heroA.setAttribute('src', 'media/guerreiro-removebg-preview.png');
-        classehero.textContent = 'GUERREIRO'
+        heroA.setAttribute('src', 'media/barbaro-.png');
+        classehero.textContent = 'BÁRBARO'
     
     }else{
         heroA.setAttribute('src', 'media/rogue-removebg-preview (2).png')
