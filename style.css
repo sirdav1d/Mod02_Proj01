@@ -153,7 +153,7 @@ img{
     margin: 0;
     position: absolute;
     transition: all 1ms;
-    width: 15vmax;
+    width: 12vmax;
     filter: drop-shadow(20px 10px 3px rgba(0, 0, 0, 0.623));
     animation: 4s ease-in-out infinite alternate flow;
 }
@@ -161,10 +161,10 @@ img{
 
 @keyframes flow { 
     from{
-        transform: translate(-45%, -60%);
+        transform: translate(-65%, -60%);
     }
     to {
-        transform: translate(-50%, -58%);
+        transform: translate(-70%, -58%);
  
   } 
 }
