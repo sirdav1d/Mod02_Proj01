@@ -40,6 +40,7 @@ body{
 main{
    
     width: auto;
+    overflow: hidden;
 }
 
 header{
@@ -156,7 +157,7 @@ img{
     width: 18vmax;
     filter: drop-shadow(20px 10px 3px rgba(0, 0, 0, 0.623));
     animation: 4s ease-in-out infinite alternate flow;
-    
+    overflow: hidden;
 
 }
 
@@ -183,6 +184,7 @@ footer{
     margin-top: 10vmax;
     text-decoration: none;
     color: whitesmoke;
+    overflow: hidden;
 }
 
 #fim{  
