@@ -153,20 +153,18 @@ img{
     margin: 0;
     position: absolute;
     transition: all 1ms;
-    width: 18vmax;
+    width: 15vmax;
     filter: drop-shadow(20px 10px 3px rgba(0, 0, 0, 0.623));
     animation: 4s ease-in-out infinite alternate flow;
-    overflow: hidden;
-
 }
 
 
 @keyframes flow { 
     from{
-        transform: translate(-30%, -60%);
+        transform: translate(-45%, -60%);
     }
     to {
-        transform: translate(-32%, -58%);
+        transform: translate(-50%, -58%);
  
   } 
 }
