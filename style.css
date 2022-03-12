@@ -18,14 +18,13 @@ body{
     background-image: url(media/background.jpg);
     background-blend-mode: darken;
     background-repeat: no-repeat;
-    background-size: cover;
     color: whitesmoke;
     font-family: 'triforce';
     font-size: 16px;
     font-variant: small-caps;
     transition: all 1ms;
     animation: 300s ease-in-out infinite alternate backflow;
-    overflow: visible;
+    overflow: hidden
 
 }
 
@@ -51,7 +50,7 @@ main{
 
 header{
     border: 3px solid saddlebrown;
-    margin: 5vmax;
+    margin: 1vmax;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,13 +67,12 @@ header:hover{
 
 h1{  
 
-
     font-weight: bold;
     background-image: linear-gradient(to bottom, #750200, #ac4523, #fd9153, #fffd6c);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size:  5.5vmax;
+    font-size:  4.5vmax;
     text-align: center;
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.356);
 
@@ -93,7 +91,7 @@ h1{
 
 .container_int aside{
     border: 5px solid black;
-    margin-top: 30vmax;
+    margin-top: 20vmax;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -125,11 +123,11 @@ button{
     position: absolute;
     padding: 2.5vmin;
     font-family: 'triforce';
-    font-size: 2vmax;
+    font-size: 1.5vmax;
     opacity: 0.5;
     transition: all .2s;
     border-radius: 5vw 5vw;
-    margin-top: 20vmax;
+    margin-top: 15vmax;
     
 
 }
@@ -138,7 +136,7 @@ button:hover{
     color: #9b0502;
     cursor: pointer;
     opacity: 1;
-    font-size: 4vmax;
+    font-size: 3vmax;
     font-weight: bold;
     background:none;
     text-shadow: none;
@@ -154,7 +152,7 @@ button:active{
 img{
     position: absolute;
     transition: all 1ms;
-    width: 15vmax;
+    width: 12vmax;
     filter: drop-shadow(20px 10px 3px rgba(0, 0, 0, 0.623));
     animation: 4s ease-in-out infinite alternate flow;
 }
@@ -162,17 +160,17 @@ img{
 
 @keyframes flow { 
     from{
-        transform: translate(-120%, -80%);
+        transform: translate(-120%, -65%);
     }
     to {
-        transform: translate(-125%, -75%);
+        transform: translate(-125%, -60%);
  
   } 
 }
 
 
 footer{
-    margin-top: 15vmax;
+    margin-top: 10vmax;
     font-size: smaller;
     display: flex;
     flex-direction: row;
