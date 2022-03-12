@@ -7,7 +7,7 @@
 
 
 body{
-
+    border: 2px solid yellow;
     background: rgba(0, 0, 0, 0.445);
     background-image: url(media/background.jpg);
     background-blend-mode: darken;
@@ -20,7 +20,7 @@ body{
     animation: 300s ease-in-out infinite alternate backflow;
     padding: 0;
     margin: 0; 
-    overflow: hidden;
+    overflow: visible;
 }
 
 @keyframes backflow {
@@ -45,7 +45,7 @@ main{
 header{
     width: auto;
     margin: 0;
-    padding: 0 25%;
+    padding: 0 15rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
