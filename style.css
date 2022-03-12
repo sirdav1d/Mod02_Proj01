@@ -11,7 +11,7 @@
 }
 
 body{
-    border: 2px solid red;
+ 
     width: 100vw;
     height: 100vh;
     background: rgba(0, 0, 0, 0.445);
@@ -42,10 +42,6 @@ body{
     }
 }
 
-main{
- border: 2px solid yellow;  
- 
-}
 
 
 header{
@@ -90,7 +86,6 @@ h1{
 
 
 .container_int aside{
-    border: 5px solid black;
     margin-top: 20vmax;
     position: relative;
     display: flex;
