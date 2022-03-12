@@ -60,7 +60,6 @@ header:hover{
 
 h1{ 
     margin-top: 35px;
-    border: 2px solid aqua;
     padding: 3.5%;
     font-weight: bold;
     background-image: linear-gradient(to bottom, #750200, #ac4523, #fd9153, #fffd6c);
@@ -125,7 +124,7 @@ button{
     font-size: 2vmax;
     opacity: 0.5;
     transition: all .2s;
-    border-radius: 3vmax 2.5vmax;
+    border-radius: 5vmax 5vmax;
     
 
 }
@@ -161,16 +160,16 @@ img{
 
 @keyframes flow { 
     from{
-        transform: translate(-55%, -60%);
+        transform: translate(-30%, -60%);
     }
     to {
-        transform: translate(-52%, -58%);
+        transform: translate(-35%, -58%);
  
   } 
 }
 
 
-#fim{
+footer{
     
     font-size: smaller;
     display: flex;
@@ -178,7 +177,7 @@ img{
     align-items: center;
     justify-self: end;
     background-color: rgba(0, 0, 0, 0.445);
-    margin-top: 10vmax;
+    margin-top: 12vmax;
     text-decoration: none;
     color: whitesmoke;
 }
@@ -188,15 +187,18 @@ p{
     font-size: smaller;
     padding: auto;
     margin:0;
+    display: flex;
+    justify-content: center;
     text-align: center;
     text-decoration: none;
     color: whitesmoke;
 }
 
 a{
-    transition: all 1s;
+    
     text-decoration: none;
     color: whitesmoke;
+    transition: all 1s;
 }
 
 a:hover{
