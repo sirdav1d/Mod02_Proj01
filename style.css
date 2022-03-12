@@ -59,6 +59,7 @@ header:hover{
 
 
 h1{ 
+    border: 2px solid aqua;
     padding: 3.5%;
     margin: 35px 0px;
     font-weight: bold;
