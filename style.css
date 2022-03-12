@@ -44,7 +44,6 @@ main{
 
 header{
     width: auto;
-    border: 2px solid yellow;
     margin: 0;
     padding: 0 25%;
     display: flex;
@@ -69,7 +68,6 @@ h1{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border: 2px solid yellow;
     font-size:  5.5vmax;
     text-align: center;
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.356);
