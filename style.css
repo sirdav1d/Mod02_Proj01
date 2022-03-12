@@ -11,21 +11,22 @@
 }
 
 body{
-    width: auto;
-    height: auto;
-    border: 2px solid yellow;
+    border: 2px solid red;
+    width: 100vw;
+    height: 100vh;
     background: rgba(0, 0, 0, 0.445);
     background-image: url(media/background.jpg);
     background-blend-mode: darken;
     background-repeat: no-repeat;
+    background-size: cover;
     color: whitesmoke;
     font-family: 'triforce';
     font-size: 16px;
     font-variant: small-caps;
     transition: all 1ms;
     animation: 300s ease-in-out infinite alternate backflow;
-    
-    overflow: hidden;
+    overflow: visible;
+
 }
 
 @keyframes backflow {
@@ -43,18 +44,18 @@ body{
 }
 
 main{
-   
-    width: auto;
+ border: 2px solid yellow;  
+ 
 }
 
+
 header{
-    width: auto;
-    margin: 0;
-    padding: 0;
+    border: 3px solid saddlebrown;
+    margin: 5vmax;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    justify-items: center;
     transition: all 3s;
 }
 
@@ -65,9 +66,9 @@ header:hover{
 }
 
 
-h1{ 
-    margin-top: 35px;
-    padding: 3.5%;
+h1{  
+
+
     font-weight: bold;
     background-image: linear-gradient(to bottom, #750200, #ac4523, #fd9153, #fffd6c);
     background-clip: text;
@@ -86,14 +87,13 @@ h1{
     justify-content: center;
     justify-self: left;
     align-items: center;
-    margin: 0;
-    padding: 0;
     
 }
 
 
 .container_int aside{
-    width: 50%;
+    border: 5px solid black;
+    margin-top: 30vmax;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -110,7 +110,6 @@ h2{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    margin: 3rem 0px;
     font-size: 4.5vmax;
     position: relative;
     text-align: center;
@@ -124,14 +123,13 @@ button{
     border-color: transparent;
     background-color: rgba(0, 0, 0, 0.301);
     position: absolute;
-    margin: 1.5vmax;
-    margin-top: 20vmax;
     padding: 2.5vmin;
     font-family: 'triforce';
     font-size: 2vmax;
     opacity: 0.5;
     transition: all .2s;
     border-radius: 5vw 5vw;
+    margin-top: 20vmax;
     
 
 }
@@ -154,11 +152,9 @@ button:active{
 
 
 img{
-    padding: 0;
-    margin: 0;
     position: absolute;
     transition: all 1ms;
-    width: 12vmax;
+    width: 15vmax;
     filter: drop-shadow(20px 10px 3px rgba(0, 0, 0, 0.623));
     animation: 4s ease-in-out infinite alternate flow;
 }
@@ -166,34 +162,30 @@ img{
 
 @keyframes flow { 
     from{
-        transform: translate(-65%, -60%);
+        transform: translate(-120%, -80%);
     }
     to {
-        transform: translate(-70%, -58%);
+        transform: translate(-125%, -75%);
  
   } 
 }
 
 
 footer{
-
+    margin-top: 15vmax;
     font-size: smaller;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    justify-self: end;
     background-color: rgba(0, 0, 0, 0.445);
-    margin-top: 10vmax;
     text-decoration: none;
     color: whitesmoke;
-    overflow: hidden;
 }
 
 #fim{  
-    padding: 10px;
+    padding: 1.5%;
     font-size: smaller;
-    padding: auto;
-    margin:0;
     display: flex;
     justify-content: center;
     text-align: center;
