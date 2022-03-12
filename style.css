@@ -7,7 +7,7 @@
 
 
 body{
-
+    border: 2px solid aqua;
     background: rgba(0, 0, 0, 0.445);
     background-image: url(media/background.jpg);
     background-blend-mode: darken;
@@ -37,6 +37,7 @@ body{
 }
 
 main{
+    border: 2px solid aqua;
     width: auto;
 }
 
@@ -124,7 +125,7 @@ button{
     font-size: 2vmax;
     opacity: 0.5;
     transition: all .2s;
-    border-radius: 5vmax 5vmax;
+    border-radius: 5vw 5vw;
     
 
 }
@@ -154,6 +155,7 @@ img{
     width: 18vmax;
     filter: drop-shadow(20px 10px 3px rgba(0, 0, 0, 0.623));
     animation: 4s ease-in-out infinite alternate flow;
+    overflow-x: hidden;
 
 }
 
@@ -163,21 +165,21 @@ img{
         transform: translate(-30%, -60%);
     }
     to {
-        transform: translate(-35%, -58%);
+        transform: translate(-32%, -58%);
  
   } 
 }
 
 
 footer{
-    
+    border: 2px solid aqua;
     font-size: smaller;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-self: end;
     background-color: rgba(0, 0, 0, 0.445);
-    margin-top: 12vmax;
+    margin-top: 10vmax;
     text-decoration: none;
     color: whitesmoke;
 }
