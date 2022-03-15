@@ -1,4 +1,4 @@
-let heroA = document.querySelector('img');
+let heroA = document.querySelector('#hero-switch');
 let action = document.querySelector('button')
 let classehero = document.querySelector('#classhero')
 
