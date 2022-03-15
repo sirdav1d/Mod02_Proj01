@@ -21,8 +21,9 @@
        font-size: 6vmax;
  }
     #btn img{
-        margin-top: 35vmax;
-        min-width: 40vmax;
+        margin-top: 32vmax;
+        min-width: 45vmax;
+        transition: -2s;
     }
 }
 
