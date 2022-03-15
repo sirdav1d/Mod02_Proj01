@@ -126,7 +126,7 @@ button img:hover{
 
 @keyframes btn-open{
     from{
-        width: 20vw;
+        width: 21vw;
         transition: 1s;
     }
 }
