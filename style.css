@@ -5,10 +5,71 @@
     src: url(components/triforce/Triforce.ttf);
 }
 
+@media(max-width:810px) {
+    #first {
+        font-size: 7vmax;
+    }
+    #hero-switch{
+        min-width: 25vmax;
+    }
+   .container_int {
+        margin-top: 1vmax;
+
+   }
+   #classhero{
+       margin-top: 50vmax;
+       font-size: 6vmax;
+ }
+    #btn img{
+        margin-top: 35vmax;
+        min-width: 40vmax;
+    }
+}
+
+@keyframes btn-open{
+    from{
+        width: 29vw;
+        transition: 1s;
+    }
+}
+
+@keyframes backflow {
+    0%{
+        background-position: 0% 50%;
+    }
+    
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes flow { 
+    from{
+        transform: translate(-50%, -110%);
+    }
+    to {
+        transform: translate(-55%, -112%);
+ 
+  } 
+}
+
+@keyframes smoke {
+   from{ 
+        transform: translate(-15px,-40px);
+        opacity:0;
+        filter: blur(5px);
+    }
+}
+
 * {
     padding: 0;
     margin: 0; 
 }
+
 
 body{
     height: auto;
@@ -27,19 +88,6 @@ body{
 
 }
 
-@keyframes backflow {
-    0%{
-        background-position: 0% 50%;
-    }
-    
-    50%{
-        background-position: 100% 50%;
-    }
-
-    100%{
-        background-position: 0% 50%;
-    }
-}
 
 
 
@@ -54,13 +102,7 @@ header{
 }
 
 
-@keyframes smoke {
-   from{ 
-        transform: translate(-15px,-40px);
-        opacity:0;
-        filter: blur(5px);
-    }
-}
+
 
 
 h1{  
@@ -124,14 +166,9 @@ button img:hover{
 }
 
 
-@keyframes btn-open{
-    from{
-        width: 29vw;
-        transition: 1s;
-    }
-}
+
 button img:active{
-    transform: translate(.4vmax, .4vmax);
+    transform: translate(5px, 5px);
     transition: -2.5s;
 }
 
@@ -145,15 +182,6 @@ button img:active{
 }
 
 
-@keyframes flow { 
-    from{
-        transform: translate(-50%, -110%);
-    }
-    to {
-        transform: translate(-55%, -112%);
- 
-  } 
-}
 
 
 footer{
