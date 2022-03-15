@@ -45,7 +45,7 @@ body{
 
 
 header{
-    margin-top: 5%;
+    margin-top: 5vmax;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +79,7 @@ h1{
 
 
 .container_int{
-    padding: 2%;
+    padding: 2vmax;
     border: 2px solid blueviolet;
     display: flex;
     flex-direction: column;
