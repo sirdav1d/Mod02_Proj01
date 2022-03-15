@@ -44,7 +44,7 @@ body{
 
 
 header{
-    margin-top: 5vmax;
+    margin-top: 6vmax;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +112,7 @@ button{
 }
 
 button img{
-    width: 23vw;
+    width: 27vw;
     opacity: 0.5;
     padding: 0;
     margin:0;
@@ -128,12 +128,12 @@ button img:hover{
 
 @keyframes btn-open{
     from{
-        width: 25vw;
+        width: 30vw;
         transition: 1s;
     }
 }
 button img:active{
-    transform: translate(.7vmax, .7vmax);
+    transform: translate(.5vmax, .5vmax);
     transition: -2.5s;
 }
 
@@ -149,10 +149,10 @@ button img:active{
 
 @keyframes flow { 
     from{
-        transform: translate(-60%, -110%);
+        transform: translate(-50%, -110%);
     }
     to {
-        transform: translate(-65%, -112%);
+        transform: translate(-55%, -112%);
  
   } 
 }
