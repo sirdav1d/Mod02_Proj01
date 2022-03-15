@@ -24,7 +24,7 @@ body{
     font-variant: small-caps;
     transition: all 1s;
     animation: 300s ease-in-out infinite alternate backflow;
-    overflow: hidden;
+    overflow-wrap: break-word;
 
 }
 
@@ -79,7 +79,7 @@ h1{
 
 
 .container_int{
-    height: 100%;
+    padding: 2%;
     border: 2px solid blueviolet;
     display: flex;
     flex-direction: column;
