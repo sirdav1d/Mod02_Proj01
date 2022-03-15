@@ -90,7 +90,7 @@ h1{
 
 
 h2{
-    margin-top: 30vmax;
+    margin-top: 22vmax;
     background-image: linear-gradient(to bottom, #750200, #ac4523, #f07833, #FCF854);
     background-clip: text;
     -webkit-background-clip: text;
@@ -103,19 +103,17 @@ h2{
 }
 
 button{
-    transform: translatey(-5vmax);
+    margin-top: 24vmax;
     position: absolute;
     background: none;
     border:none;
     padding: 0;
-    margin:0;
 }
 
 button img{
-    width: 27vw;
+    width: 30vw;
     opacity: 0.5;
     padding: 0;
-    margin-top: 1.7vmax;
 }
 
 button img:hover{
@@ -133,7 +131,7 @@ button img:hover{
     }
 }
 button img:active{
-    transform: translate(.5vmax, .5vmax);
+    transform: translate(.4vmax, .4vmax);
     transition: -2.5s;
 }
 
