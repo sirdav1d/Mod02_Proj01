@@ -12,7 +12,6 @@
 
 body{
     height: auto;
-    border: 2px solid red;
     background: rgba(0, 0, 0, 0.445);
     background-image: url(media/background.jpg);
     background-blend-mode: darken;
@@ -80,7 +79,7 @@ h1{
 
 .container_int{
     padding: 2vmax;
-    border: 2px solid blueviolet;
+
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -104,16 +103,19 @@ h2{
 }
 
 button{
-    position: static;
+    transform: translatey(-5vmax);
     position: absolute;
     background: none;
     border:none;
+    padding: 0;
+    margin:0;
 }
 
 button img{
-    border: 2px solid yellow;
-    width: 18vw;
+    width: 23vw;
     opacity: 0.5;
+    padding: 0;
+    margin:0;
 }
 
 button img:hover{
@@ -126,13 +128,12 @@ button img:hover{
 
 @keyframes btn-open{
     from{
-        width: 21vw;
+        width: 25vw;
         transition: 1s;
     }
 }
-button:active{
-    
-    transform: translate(5px, 5px);
+button img:active{
+    transform: translate(.7vmax, .7vmax);
     transition: -2.5s;
 }
 
@@ -140,7 +141,7 @@ button:active{
 #hero-switch{
     position: absolute;
     transition: all 1ms;
-    width: 11vmax;
+    width: 13vmax;
     filter: drop-shadow(20px 10px 3px rgba(0, 0, 0, 0.623));
     animation: 4s ease-in-out infinite alternate flow;
 }
