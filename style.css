@@ -214,6 +214,7 @@ footer{
 }
 
 #fim{  
+    bottom: 0px;
     padding: 1vmax;
     text-decoration: none;
     color: whitesmoke;
