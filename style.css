@@ -5,31 +5,53 @@
     src: url(components/triforce/Triforce.ttf);
 }
 
-@media(max-width:810px) {
+
+
+ @media(max-width:810px) {
+     #first {
+        font-size: 6vmax;
+        margin: 0 4vmax;
+    }
+    #hero-switch{
+        min-width: 15vmax;
+    }
+
+   #classhero{
+       margin-top: 25vmax;
+       font-size: 6vmax;
+ }
+    #btn img{
+        margin-top: 12vmax;
+        transition: -1s;
+    }
+} 
+
+@media(max-width:600px) {
     #first {
-        font-size: 7vmax;
+        font-size: 6vmax;
+        margin: 2vmax 4vmax;
     }
     #hero-switch{
         min-width: 25vmax;
     }
    .container_int {
-        margin-top: 1vmax;
+        margin-top: 15vmax;
 
    }
    #classhero{
-       margin-top: 50vmax;
+       margin-top: 30vmax;
        font-size: 6vmax;
  }
     #btn img{
-        margin-top: 32vmax;
-        min-width: 45vmax;
-        transition: -2s;
+        width: 26vmax;
+        margin-top: 15vmax;
+        transition: -1s;
     }
 }
 
 @keyframes btn-open{
     from{
-        width: 29vw;
+        width: 22vmax;
         transition: 1s;
     }
 }
@@ -122,7 +144,6 @@ h1{
 
 .container_int{
     padding: 2vmax;
-
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -133,7 +154,7 @@ h1{
 
 
 h2{
-    margin-top: 22vmax;
+    margin-top: 18vmax;
     background-image: linear-gradient(to bottom, #750200, #ac4523, #f07833, #FCF854);
     background-clip: text;
     -webkit-background-clip: text;
@@ -146,7 +167,7 @@ h2{
 }
 
 button{
-    margin-top: 24vmax;
+    margin-top: 27vmax;
     position: absolute;
     background: none;
     border:none;
@@ -154,30 +175,29 @@ button{
 }
 
 button img{
-    width: 30vw;
+    width: 20vmax;
     opacity: 0.5;
     padding: 0;
 }
 
 button img:hover{
-    transition: 1s;
-    animation: 1s 1ms ease-in-out infinite alternate btn-open;
     cursor: pointer;
     opacity: 1;
+    animation: 700ms 1ms ease-in-out infinite alternate btn-open;
 }
 
 
 
 button img:active{
     transform: translate(5px, 5px);
-    transition: -2.5s;
+    transition: -2s;
 }
 
 
 #hero-switch{
     position: absolute;
     transition: all 1ms;
-    width: 13vmax;
+    width: 11vmax;
     filter: drop-shadow(20px 10px 3px rgba(0, 0, 0, 0.623));
     animation: 4s ease-in-out infinite alternate flow;
 }
