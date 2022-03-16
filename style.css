@@ -207,7 +207,7 @@ footer{
     justify-content: center;
     align-items: center;
     bottom: 0px;
-    font-size: smaller;
+    font-size: .9vmax;
     background-color: rgba(0, 0, 0, 0.445);
     text-decoration: none;
     color: whitesmoke;
@@ -215,7 +215,6 @@ footer{
 
 #fim{  
     padding: 1vmax;
-    font-size: smaller;
     text-decoration: none;
     color: whitesmoke;
 }
