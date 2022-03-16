@@ -181,9 +181,9 @@ button img:hover{
 
 
 button img:active{
-    transform: translate(5px, 5px);
+    transform: translate(.5vmax, .2vmax);
     border-radius: 3vmax;
-    box-shadow:  inset  1px 2px 1px black;
+    box-shadow:  inset  2px 2px 2px rgba(0, 0, 0, 0.438);
     padding: .5vmax;
     transition: -2s;
 }
