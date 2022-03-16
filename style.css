@@ -5,8 +5,6 @@
     src: url(components/triforce/Triforce.ttf);
 }
 
-
-
  @media(max-width:810px) {
      #first {
         font-size: 6vmax;
