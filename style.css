@@ -27,7 +27,7 @@
 @media(max-width:600px) {
     #first {
         font-size: 6vmax;
-        margin: 2vmax 4vmax;
+        margin: 2vmax 5vmax;
     }
     #hero-switch{
         min-width: 25vmax;
