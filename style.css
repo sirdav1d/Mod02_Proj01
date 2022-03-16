@@ -183,7 +183,7 @@ button img:hover{
 button img:active{
     transform: translate(.5vmax, .2vmax);
     border-radius: 3vmax;
-    box-shadow:  inset  2px 2px 2px rgba(0, 0, 0, 0.438);
+    box-shadow:  inset  2px 2px 2px rgb(0, 0, 0);
     padding: .5vmax;
     transition: -2s;
 }
