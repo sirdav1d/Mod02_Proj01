@@ -7,14 +7,14 @@ let heroAsrc = heroA.getAttribute('src');
 
 if(heroAsrc === "media/rogue-removebg-preview (2).png"){
         heroA.setAttribute('src', 'media/mago-removebg-preview.png')
-        classehero.textContent = 'MAGO'
+        classehero.textContent = 'Mago'
 
     }else if(heroAsrc === 'media/mago-removebg-preview.png'){
         heroA.setAttribute('src', 'media/barbaro-.png');
-        classehero.textContent = 'BARBARO'
+        classehero.textContent = 'Barbaro'
     
     }else{
         heroA.setAttribute('src', 'media/rogue-removebg-preview (2).png')
-        classehero.textContent = 'GATUNO'
+        classehero.textContent = 'Gatuno'
     }
 }

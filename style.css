@@ -16,11 +16,11 @@
 
    #classhero{
        margin-top: 30vmax;
-       font-size: 5vmax;
+       font-size: 7vmax;
  }
     #btn img{
         width: 25vmax;
-        margin-top: 10vmax;
+        margin-top: 12vmax;
         transition: -1s;
     }
 } 
@@ -39,7 +39,7 @@
    }
    #classhero{
        margin-top: 30vmax;
-       font-size: 6vmax;
+       font-size: 10vmax;
  }
     #btn img{
         width: 26vmax;
@@ -64,10 +64,10 @@
 
 @keyframes flow { 
     from{
-        transform: translate(-50%, -110%);
+        transform: translate(-50%, -120%);
     }
     to {
-        transform: translate(-55%, -112%);
+        transform: translate(-55%, -122%);
  
   } 
 }
@@ -96,7 +96,6 @@ body{
     color: whitesmoke;
     font-family: 'triforce';
     font-size: 16px;
-    font-variant: small-caps;
     transition: all 1s;
     animation: 300s ease-in-out infinite alternate backflow;
     overflow-wrap: break-word;
@@ -146,20 +145,20 @@ h1{
 
 
 h2{
-    margin-top: 22vmax;
+    margin-top: 20vmax;
     background-image: linear-gradient(to bottom, #750200, #ac4523, #f07833, #FCF854);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: bold;
-    font-size: 4vmax;
+    font-weight: lighter;
+    font-size: 7vmax;
     text-align: center;
     text-shadow: 4px 6px 6px rgba(0, 0, 0, 0.452);
 
 }
 
 button{
-    margin-top: 29vmax;
+    margin-top: 27vmax;
     position: absolute;
     background: none;
     border-color: transparent;
@@ -170,7 +169,7 @@ button{
 button img{
     width: 15vmax;
     opacity: 0.5;
-    padding: 0;
+    padding: 1vmax;
     margin: 0;
 }
 
@@ -182,10 +181,10 @@ button img:hover{
 
 
 button img:active{
-    transform: translate(.5vmax, .2vmax);
+    transform: translate(.4vmax, .4vmax);
     border-radius: 3vmax;
     box-shadow:  inset  2px 2px 2px rgb(0, 0, 0);
-    padding: .5vmax;
+    padding: 1vmax;
     transition: -2s;
 }
 
