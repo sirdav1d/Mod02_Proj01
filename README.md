@@ -18,7 +18,7 @@
           </div>
           <div align="center">
                 <button align="center" id="btn" type="button" value="TROCAR">
-            <img width = "200px" src="media/btn-removebg-preview.png">
+            <img width = "200px" src="media/btn-trocar.png">
                 </button>   
           </div>
         </section>
