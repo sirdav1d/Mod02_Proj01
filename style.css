@@ -15,12 +15,14 @@
     }
 
    #classhero{
+       font-weight: lighter;
        margin-top: 30vmax;
-       font-size: 7vmax;
+       font-size: 9vmax;
  }
     #btn img{
         width: 25vmax;
         margin-top: 12vmax;
+        padding: 1.5vmax 0;
         transition: -1s;
     }
 } 
@@ -38,11 +40,13 @@
 
    }
    #classhero{
+       font-weight: lighter;
        margin-top: 30vmax;
        font-size: 10vmax;
  }
     #btn img{
         width: 26vmax;
+        padding: 2vmax 1vmax;
         margin-top: 15vmax;
         transition: -1s;
     }
@@ -169,7 +173,7 @@ button{
 button img{
     width: 15vmax;
     opacity: 0.5;
-    padding: 1vmax;
+    padding: 1.5vmax 0;
     margin: 0;
 }
 
@@ -184,7 +188,7 @@ button img:active{
     transform: translate(.4vmax, .4vmax);
     border-radius: 3vmax;
     box-shadow:  inset  2px 2px 2px rgb(0, 0, 0);
-    padding: 1vmax;
+    padding: 1vmax 0;
     transition: -2s;
 }
 
